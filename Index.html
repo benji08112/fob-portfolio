@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Francis Ochowupu Benjamin — Cybersecurity Student & Technology Enthusiast">
+    <title>FOB | Portfolio</title>
+    <link rel="stylesheet" href="CSS\Style.css"> <!-- CSS to be added later -->
+    <script src="JS\script.js"></script>
+</body>
+</html>
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo">
+            <h1>FOB</h1> <!-- Your Brand Logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" download>Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Francis Ochowupu Benjamin</h2>
+            <h3>Cybersecurity Student | Tech Enthusiast | Future Global Brand Owner</h3>
+            <p>I build secure, scalable, and innovative tech solutions to empower the world.</p>
+            <a href="#projects" class="btn-primary">View My Work</a>
+            <a href="https://wa.me/+2348158769307" class="btn-secondary">WhatsApp Me</a>
+            <!-- Download CV Button -->
+<a href="Asset\Francis_Ochowupu_Benjamin_CV (1).pdf" 
+download="Francis_Ochowupu_Benjamin_CV.pdf" 
+class="cv-btn">
+ 📄 Download My CV
+</a>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am <strong>Francis Ochowupu Benjamin</strong>, hailing from Benue State, Nigeria. 
+            I am well known for my academic excellence and for being a skillful drummer who understands the things of God. 
+            My passion lies in helping nations and generations build strong technology skills, while also dedicating my life to serving God.  
+            My journey is driven by a vision to inspire, teach, and equip people with innovative tech solutions that can shape the future.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Flagship Projects</h2>
+        <div class="project-grid">
+            <article>
+                <h3>Secure E-commerce Platform</h3>
+                <p>Full-stack e-commerce platform with encrypted authentication and security-focused design.</p>
+            </article>
+            <article>
+                <h3>Network Vulnerability Scanner</h3>
+                <p>Python-based tool for identifying and reporting network security risks.</p>
+            </article>
+            <article>
+                <h3>Cybersecurity Awareness Platform</h3>
+                <p>Interactive learning site to educate users on safe online practices.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Cybersecurity Tools: Wireshark, Nmap, Kali Linux</li>
+            <li>Web Development: HTML, CSS, JavaScript, PHP, MySQL</li>
+            <li>Networking: Cisco CCNA, Routing, Switching</li>
+            <li>Cloud Security Basics (AWS)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="PHP\contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>        
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 FOB - Francis Ochowupu Benjamin. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
